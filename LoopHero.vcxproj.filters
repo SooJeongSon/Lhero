@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{7b11bef5-ee7a-4545-8e2d-21cc8dcd6da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{fbb8740b-05b7-4671-9c41-917ac8497072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Super">
+      <UniqueIdentifier>{4d7e169c-20da-49a5-8fe6-072051b2a83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{84d95d42-6b43-4318-b8b1-03e70c5248c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Unit">
+      <UniqueIdentifier>{11fcdd5b-83a8-46d7-b9ac-6697980f1e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Unit\Super">
+      <UniqueIdentifier>{1eee6004-69b7-4e19-bac5-3f7ef16de7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Super">
+      <UniqueIdentifier>{588aa4f1-0f87-4c62-985f-31ad4d5d6560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Tile">
+      <UniqueIdentifier>{24c0f1f0-67f4-42d8-a954-dc1f49e0cc75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\CardInven">
+      <UniqueIdentifier>{d14d579e-2792-4dec-86cd-9fd4938696c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\EquipInven">
+      <UniqueIdentifier>{9834adf4-f3f9-4341-91bd-68bf98010cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Event">
+      <UniqueIdentifier>{28f6f37b-cddf-40ba-8dae-079ee29cec35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Event\Interface">
+      <UniqueIdentifier>{8999d2a6-4bd9-4723-a392-3ae053a7681b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameUI">
+      <UniqueIdentifier>{fe2ed965-0538-4e35-b4a4-59e8397e12cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameUI\Super">
+      <UniqueIdentifier>{47d1d264-fabc-48da-99d3-22305d237fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameUI\InGame">
+      <UniqueIdentifier>{a4c5222c-dcf3-4ed5-bd52-37185f12d196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameUI\Base">
+      <UniqueIdentifier>{a5d76261-7355-4a55-93ab-e7d9de0d6bfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoopHero.h">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Scene\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InGame.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>소스 파일\GameObject\Unit\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\GameObject\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>소스 파일\GameObject\CardInven</Filter>
+    </ClInclude>
+    <ClInclude Include="TileTable.h">
+      <Filter>소스 파일\GameObject\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldTileMap.h">
+      <Filter>소스 파일\GameObject\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameHandCard.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>소스 파일\GameUI\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameRightMenu.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameEventTimer.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHorizontalScroll.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>소스 파일\GameObject\CardInven</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UISprite.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>소스 파일\GameObject\EquipInven</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipInven.h">
+      <Filter>소스 파일\GameObject\EquipInven</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>소스 파일\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTrigger.h">
+      <Filter>소스 파일\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="IClickHandler.h">
+      <Filter>소스 파일\Event\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDragHandler.h">
+      <Filter>소스 파일\Event\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDropHandler.h">
+      <Filter>소스 파일\Event\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>소스 파일\Event\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UIProgressBar.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIItemSlot.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Breed.h">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameBattle.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextInfo.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUnit.h">
+      <Filter>소스 파일\GameObject\Unit\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameBattleUnit.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameItemSlot.h">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGrid.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>소스 파일\GameObject\Unit\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\GameObject\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>소스 파일\GameObject\CardInven</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTable.cpp">
+      <Filter>소스 파일\GameObject\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldTileMap.cpp">
+      <Filter>소스 파일\GameObject\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameHandCard.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameEventTimer.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameRightMenu.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHorizontalScroll.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>소스 파일\GameObject\CardInven</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UISprite.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>소스 파일\GameUI\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>소스 파일\GameObject\EquipInven</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipInven.cpp">
+      <Filter>소스 파일\GameObject\EquipInven</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTrigger.cpp">
+      <Filter>소스 파일\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>소스 파일\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="UIProgressBar.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIItemSlot.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Breed.cpp">
+      <Filter>소스 파일\GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameBattle.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextInfo.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUnit.cpp">
+      <Filter>소스 파일\GameObject\Unit\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameBattleUnit.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameItemSlot.cpp">
+      <Filter>소스 파일\GameUI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGrid.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>소스 파일\GameUI\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
